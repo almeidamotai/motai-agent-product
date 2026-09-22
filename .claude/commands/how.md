@@ -168,6 +168,7 @@ git commit -m "prd(how): [descripción de los REQs principales] [flags: N]
 Feature: [nombre completo]
 REQs: [N] (P0: [N], P1: [N], P2: [N])
 Reglas de negocio: [N]"
+git push
 ```
 
 ## Paso 10: Señal de completitud

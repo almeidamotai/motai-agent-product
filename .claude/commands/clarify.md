@@ -81,18 +81,31 @@ Actualiza los archivos afectados. Actualiza `clarify-status` en el frontmatter.
 
 ## Paso 5: Git — amend, no nuevo commit
 
-Las correcciones de `/clarify` son parte de la misma unidad de trabajo del comando que las generó:
+Las correcciones de `/clarify` son parte de la misma unidad de trabajo del comando que las generó, así que van con `--amend` **siempre que el commit todavía no se haya publicado**.
+
+Verifica primero si el commit ya está en el remoto:
+
+// turbo
+```bash
+git status -sb
+```
+
+Si la rama **no** aparece adelante del remoto (el commit ya se publicó), no hagas amend — reescribir un commit publicado obliga a un force push. Crea un commit nuevo en su lugar, usando el bloque de la excepción de abajo.
+
+Si el commit aún es local:
 
 // turbo
 ```bash
 git add prds/[archivo-modificado]
 git commit --amend --no-edit
+git push
 ```
 
-**Excepción**: si `/clarify` modifica un archivo distinto al que acaba de escribir el comando que lo disparó (es decir, corrige una sección de un comando anterior), crea un commit nuevo en lugar de hacer amend:
+**Excepción**: si `/clarify` modifica un archivo distinto al que acaba de escribir el comando que lo disparó (es decir, corrige una sección de un comando anterior), o si el commit original ya se publicó, crea un commit nuevo en lugar de hacer amend:
 
 // turbo
 ```bash
 git add prds/[archivo-de-comando-anterior]
 git commit -m "prd(clarify): resolver inconsistencia en [archivo] detectada en /[comando]"
+git push
 ```

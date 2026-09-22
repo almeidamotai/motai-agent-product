@@ -190,6 +190,7 @@ git commit -m "prd(compile): PRD final [template] [feature-name] [flags: N]
 Secciones: [N]/[N] completas
 Issues críticos: [N]
 Flags: NEEDS-EVIDENCE:[N] ASSUMPTION:[N] UNRESOLVED:[N]"
+git push
 ```
 
 ## Paso 7: Señal de completitud

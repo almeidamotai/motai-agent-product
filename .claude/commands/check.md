@@ -130,6 +130,7 @@ git commit -m "prd(check): reporte coherencia [feature-name] [readiness: ok|not-
 Issues críticos: [N]
 Advertencias: [N]
 Flags: [N]"
+git push
 ```
 
 ## Paso 7: Mostrar reporte y señal de completitud

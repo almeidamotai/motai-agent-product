@@ -130,6 +130,7 @@ git commit -m "prd(success): [métricas clave en 5 palabras] [flags: N]
 
 Feature: [nombre completo]
 Métricas: [N] | NEEDS-EVIDENCE: [N]"
+git push
 ```
 
 ## Paso 7: Señal de completitud

@@ -155,6 +155,7 @@ git commit -m "prd(risks): riesgos dependencias go-no-go [flags: N]
 
 Feature: [nombre completo]
 Riesgos: [N] | Dependencias: [N] | Preguntas abiertas: [N]"
+git push
 ```
 
 ## Paso 7: Señal de completitud

@@ -132,6 +132,7 @@ git commit -m "prd(who): [segmentos identificados] [flags: N]
 Feature: [nombre completo]
 Segmentos: [lista breve]
 Primario: [segmento elegido]"
+git push
 ```
 
 ## Paso 7: Señal de completitud

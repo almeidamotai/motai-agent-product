@@ -155,6 +155,7 @@ git commit -m "prd(why): [descripción breve del problema] [flags: N]
 Feature: [nombre completo]
 Template: [template]
 Flags abiertos: [tipos y cantidades]"
+git push
 ```
 
 ## Paso 7: Señal de completitud

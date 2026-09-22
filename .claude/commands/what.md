@@ -153,6 +153,7 @@ git commit -m "prd(what): [solución en 5 palabras] [flags: N]
 Feature: [nombre completo]
 Capacidades: [N] | Fuera de alcance: [N]
 Dependencias externas: [Sí/No]"
+git push
 ```
 
 ## Paso 7: Señal de completitud

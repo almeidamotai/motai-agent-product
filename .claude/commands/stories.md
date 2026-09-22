@@ -322,6 +322,7 @@ git commit -m "prd(stories): [US-001 US-002 etc] con Gherkin completo [flags: N]
 
 Feature: [nombre completo]
 Historias: [N] | Scenarios: [N] | Flujos E2E: [N]"
+git push
 ```
 
 ## Paso 9: Señal de completitud

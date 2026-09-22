@@ -138,6 +138,7 @@ git commit -m "prd(start): inicializar PRD [feature-name] con template [template
 
 Feature: [nombre completo]
 Template: [lean|integral|amazon|google]"
+git push
 ```
 
 ## Paso 8: Señal de completitud
