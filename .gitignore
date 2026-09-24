@@ -1,0 +1,14 @@
+# Archivos que genera macOS por su cuenta
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# Hojas de cálculo con datos reales del negocio
+# Durante un PRD es normal recibir exportaciones de sistemas contables, extractos
+# bancarios o reportes operativos para analizarlos. Esos archivos suelen traer NIT
+# de proveedores, montos y datos de terceros, y no deben quedar versionados.
+# El PRD documenta lo que se aprende de ellos; el archivo crudo se queda afuera.
+*.xlsx
+*.xls
+*.csv
